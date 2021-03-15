@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html lang="en">   
+    <head>
+        <title>BookDoc: Find a doctor, dentist or other healthcare professionals | Book appointments online instantly and it's free | BookDoc</title>   
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="bookdoc.css">
+        <script>
+            alert("Welcome! So grateful you are here! We encourage you to enable Location Access for most optimal search results.")
+            function myFunction() { 
+              var txt;
+              if (confirm("Privacy will not be leaked")) {
+                txt = "You pressed OK!";
+              } else {
+                txt = "You pressed Cancel!";
+              }
+              document.getElementById("demo").innerHTML = txt;
+            }
+        </script> 
+    </head>   
+    <body> 
+        <img id="logo" src="logo.png" alt="logo" width="200" height="100">  
+        <h1>BookDoc-Home</h1>
+        <hr>
+        <nav>   
+            <ul>   
+                <li><a href="index.html">Home Page</a>
+                    <ul>
+                        <li><a href="partners.html">Partners</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contacts</a></li>  
+                <li><a href="services.html">Services</a>
+                    <ul>
+                        <li><a href="customers.html">Customers</a></li>
+                        <li><a href="healthcareProfessionals.html">Healthcare</a></li>
+                        <li><a href="hospitals.html">Hospitals</a></li>
+                        <li><a href="corporate.html">Corporate</a></li>
+                    </ul>
+                </li> 
+                <li><a href="location.html">Locations</a></li>   
+                <li><a href="rewards.html">Rewards</a></li>   
+                <li><a href="about.html">About us</a>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="different.html">Different?</a></li>
+                    </ul>
+                </li>   
+            </ul>   
+        </nav>
+        <main> 
+            <h2>Stay active and get rewarded!</h2>
+            <p>Redeem your BookDoc rewards now with 4 easy steps to follow.</p>
+            <ol> 
+                <li>Sync your fitness tracker to the BookDoc mobile app.(Link at below to download)</li>
+                <li>Just start walking or running!</li>
+                <li>Track your average daily steps over the course of the month.</li> 
+                <li>When you reach certain points, you can select and redeem your rewards!</li>  
+            </ol>
+            <br>
+            <video width="500" height="300" controls>
+                <source src="introvid.mp4" type="video/mp4">
+                <source src="intro.ogg" type="video/ogg">
+            </video>
+            <div>
+                <h2>Compatible Devices and Apps</h2>
+                <ol>
+                    <li>Samsung Health &nbsp;
+                        <img src="samsunghealth.png" alt="Samsung Health" height="30" width="50">
+                    </li>
+                    <li>Fitbit &nbsp;
+                        <img src="fitbit.png" alt="FitBit" height="30" width="50">
+                    </li>
+                    <li>Jawbone &nbsp;
+                        <img src="jawbone.jpg" alt="Jawbone" height="30" width="70">
+                    </li>
+                    <li>Apple Health &nbsp;
+                        <img src="applehealth.png" alt="Apple Health" height="30" width="60">
+                    </li>
+                    <li>Google Fit &nbsp;
+                        <img src="googlefit.png" alt="Google Health" height="35" width="35">
+                    </li>
+                    <li>Mi Fit &nbsp;
+                        <img src="mifit.png" alt="Mi Fit" height="30" width="35">
+                    </li>
+                </ol>
+            </div>
+            <br><br><br><br><br><br><br><br>
+            <h3>Not a member? Register now with NO hassle! </h3>
+            <p>Fill up the form to become our member NOW!</p>
+            
+            <form action="action.php" method="GET">
+            <fieldset><legend>Personal Details</legend>
+            <label>Name:</label>
+            <input type="text" size="30" maxlength="20" placeholder="Please enter your name" required>
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" name="Gender" required> Male
+            <input type="radio" name="Gender" required> Female
+            <br><br>
+            <label>Age:</label>
+            <input type="text" pattern="[0-9]{2}" size="5" placeholder="(numeric)" required>
+            <br><br>
+            <label>Contact Number:</label>
+            <input type="tel" pattern="[0-9]{3}-[0-9]{8}"  placeholder="012-12345678" required>
+            <br><br>
+            <label>E-mail:</label>
+            <input type="email" size="29" placeholder="Please enter your email address." required>
+            <br><br>
+            <input type="submit" onclick="myFunction()">
+            </fieldset>
+            </form>
+            </main>
+            <br>
+            <h5>Get the apps here:</h5>
+            <div class="apps">
+                <a href="https://itunes.apple.com/my/app/bookdoc/id1037726744?mt=8">
+                <img src="appstore.png" alt="BookDoc App Store" height="30" width="100"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.bookdoc.bookdoc&amp;hl=en">
+                <img src="googleplay.png" alt="BookDoc App Store" height="30" width="100"></a>
+            </div>
+            <br>
+            <footer> &copy; 2017 BookDoc</footer> 
+        </body>
+</html>  

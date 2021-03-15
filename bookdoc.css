@@ -1,0 +1,198 @@
+body{background-color: lightgoldenrodyellow;
+        color: black;}
+
+nav{float: left;
+        clear: left;
+        color: black;
+        font-weight: bold;}
+
+nav a {text-decoration: none; 
+        display: block;
+        color: black;
+        text-align: center;
+        padding:0.2em;
+        padding-top: 0.4em;}
+
+nav a:visited{color: black;}
+
+nav ul li{line-height: 40px;
+                display: block;
+                font-weight: bold;}
+
+nav ul ul li{display: none;}
+
+nav a:hover{background-color: crimson;
+                color: white;
+                border: 2px solid black;}
+
+nav ul :hover ul li {display: block;
+                        line-height: 10px;}
+
+#logo{float: left;}
+
+@media only screen and (max-width:1024px) {
+        body{margin: 0;}
+        h2{font-size: 100%;
+                float: left;}
+        h3,p,form{float: left;}
+        h5, .apps{float: left;
+                        text-align: center;
+                        margin-left: 100px;
+                        padding-top: 20px;}
+        ol li{float: left;}
+        #wrapper{width: auto;}
+        main{margin-left:0;}
+        nav{float: none; width: auto;}
+        nav li{display: inline-block; 
+                padding: 0.6em;}
+        nav ul{text-align: center;}
+        nav a{border-style: none;
+                background-image: none;}
+        h2,h3,form{margin-left: 100px;}
+        p{font-size: 100%;}
+        .follow h4{margin-left: 120px;}
+        video{display: none;}
+
+}
+                                    
+@media only screen and (max-width: 768px) {
+        h1, h2{font-size: 100%;}
+        h3,p{float: left;}
+        p{font-size: 90%;}
+        nav, nav ul, nav li{padding: 0;}
+        nav li{display: block;}
+        nav a{display: block;
+                padding: 0.2em;
+                border-bottom: 2px ridge #00005D;}
+        figure a{text-align: center;}
+        main ul li{margin-left: 10px;}
+        .follow h4{display: none;}
+        .follow a{padding-left: 50px;}
+        video{display: none;}
+}
+
+h1, h4{text-align: center;}
+
+h2{margin-top: 40px;
+        margin-left: 200px;
+        font-weight: bold}
+
+h3{margin-left: 200px;
+        font-weight: bold;}
+
+h5{text-align: center;}
+
+h5 span{color: red;}
+
+div li{float: left;
+        list-style-type: none;
+        line-height: 30px;
+        padding-left: 100px;
+        margin-left: 200px;}
+
+div h4{float: left;
+        margin-left: 200px;}
+
+.follow{float: left;
+        margin-left: 120px;}
+
+.apps{text-align: center;}
+
+details, summary p{text-align: center;
+                        line-height: 25px;}
+
+summary{font-weight: bold;
+        line-height: 20px;}
+
+main ol li, form,main p{margin-left: 200px;
+                        line-height: 25px;}
+
+main ul li{width: 100px; 
+                height:40px; 
+                background-color: black; 
+                opacity: 0.8; 
+                line-height: 40px; 
+                text-align: center; 
+                text-decoration:none; 
+                color: white; 
+                display: block;
+                margin-left: 150px;
+                position: relative;}
+
+main figure ul img{background-color: lightgoldenrodyellow;}
+
+main ul li a:hover{background-color: green;} 
+
+main ul ul li{display: none;} 
+            
+main li:hover ul li{display:block;         
+                    transform: translate(0px,-40px);
+                    margin-left: 60px;
+                    width: 500px;}
+
+main figure ul li{height: 100px;}
+
+label{margin-left: 50px;}
+
+aside, aside p{float: right;
+                margin: 10px;
+                border: 2px solid black;
+                padding: 2px;
+                text-align: center;}
+
+.website{color: red;
+                font-style: italic;}
+
+table,th{border: 2px solid black;
+                border-collapse: collapse; 
+                text-align: center;}
+
+td{border: 1px solid black; 
+        border-collapse: collapse; 
+        text-align: left;
+        padding: 5px;}
+
+caption{font-weight: bold;
+        font-size: larger;
+        text-align: left;
+        margin-top: 30px;}
+
+span{font-weight: bold;}
+
+main{margin-left: 20px;}
+
+footer{float: left;
+        clear: both;
+        margin-top: 90px;}
+
+figure span{color: red;
+                font-weight: bold;}
+
+figure a{font-weight: bold;
+                font-size: x-large;
+                margin-left: 200px;
+                float: left;
+                background-color:lightblue;}
+
+figure img{border: 2px solid black;}
+
+figure ul li{list-style-type: none;
+                float: right;
+                margin-bottom: 40px;
+                margin-right: 30px;
+                text-align: center;}
+
+figure ol li{list-style-type: none;
+                float: right;
+                margin-bottom: 20px;
+                margin-right: 50px;}
+
+video{margin-left: 300px;}
+
+
+
+
+            
+
+                
+
